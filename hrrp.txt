@@ -1,0 +1,9 @@
+1 en app.module.ts
+	import {HttpClientModule} from '@angular/common/http';  //Manual
+	y en imports: HttpClientModule
+
+2. para inyectar en un servicio
+	import { HttpClientModule } from '@angular/common/http';   //Auto
+	cosntructor (private http: HttpClient){}
+
+//siempre genera conflico, reiniciar el servidor

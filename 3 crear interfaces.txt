@@ -1,0 +1,8 @@
+1 creamos una carpeta y un archivo ts en app
+ /app/interfaces/interfaces.ts
+	
+2 si ya tienen un json o una api copia todo lo que sale de postman 
+
+3 con el plguin jston to ts se da  Convert from clipboard (Shift + Ctrl + Alt + V)
+
+4 aantes de dodne dice interface se pone un export

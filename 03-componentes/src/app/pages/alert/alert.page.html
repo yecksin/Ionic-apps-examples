@@ -1,0 +1,14 @@
+<app-header [titulo]="titulo || 'alert page'"></app-header> <!-- el || es para que salga algo si no hay nada en la variable tiutlo-->
+<!--
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start"><ion-back-button></ion-back-button> </ion-buttons>
+
+    <ion-title>alert</ion-title>
+  </ion-toolbar>
+</ion-header>
+-->
+<ion-content>
+  <ion-button expand="full" (click)="presentAlert()" color="primary"> alerta</ion-button>
+  <ion-button expand="full" (click)="presentAlertPrompt()" color="primary"> input</ion-button>
+</ion-content>

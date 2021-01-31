@@ -1,0 +1,2 @@
+1 para crear un servicio sin archivo de pruebas se utiliza 
+	ionic g s services/movies --skipTests=true
